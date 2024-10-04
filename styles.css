@@ -17,6 +17,49 @@ body {
     padding: 0 20px;
 }
 
+.features, .social-media, .stylish-photos, .signup {
+    padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .feature-item, .stylish-item {
+        flex-basis: 100%;
+    }
+
+    .social-content, .stylish-grid {
+        flex-direction: column;
+    }
+
+    .social-text, .social-image {
+        flex-basis: 100%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-row input, .form-control {
+        flex-basis: 100%;
+    }
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 40px; 
+    margin-right: 10px;
+}
+
 button {
     cursor: pointer;
     border: none;
